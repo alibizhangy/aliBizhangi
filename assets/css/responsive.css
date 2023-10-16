@@ -1,0 +1,135 @@
+@media (max-width: 991.98px) {
+  h4 {
+    font-size: 20px;
+  }
+  h5,
+  body {
+    font-size: 16px;
+    background-color: #fafafa;
+  }
+  .header,
+  .container {
+    padding: 0;
+    position: relative;
+  }
+  .header {
+    height: auto;
+  }
+  .header img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 75px;
+  }
+  .header .title {
+    margin: 0;
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    padding: 100px 20px 60px;
+    background-color: #fafafa;
+  }
+  .header .title,
+  .title .button,
+  .title .position,
+  .title .position i {
+    color: #333533;
+  }
+  .header .title h1 {
+    font-size: 36px;
+  }
+  .title .position {
+    font-size: 24px;
+    margin: 30px 0;
+  }
+  .title .button {
+    border: 1px solid #333533;
+    width: 100%;
+    padding: 8px 0;
+  }
+  .button.lang {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-top: 0px;
+  }
+  nav {
+    display: none;
+  }
+  .sections {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .sections section {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .sections,
+  .sections section:last-child {
+    margin: 0;
+    width: auto;
+    border-left: none;
+  }
+  .sections section h4 {
+    margin-top: 0;
+  }
+  .sections section#skills h4:not(:first-child) {
+    color: #a0a0a0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .sections section#skills ul:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  .contact {
+    flex-wrap: wrap;
+  }
+  .contact div {
+    width: 100%;
+  }
+  .project {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333533;
+    color: #fafafa;
+    font-size: 14px;
+  }
+  .mobile-nav ul {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .mobile-nav ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .mobile-nav ul li i {
+    margin-right: 5px;
+  }
+  .mobile-nav ul li.active {
+    color: #ffd100;
+    border-bottom: 4px solid #ffd100;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
